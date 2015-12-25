@@ -22,10 +22,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cachSolve calculates the inverse of  a matrix by first 
+## cacheSolve calculates the inverse of a matrix by first 
 ## checking if the calculation has been done and the matrix is cached.
-## And calculating the inverse of a matrix if it has not already been done and 
-## sets the value with the setInverse function.
+## Or calculates the inverse of a matrix, if it has not already been done, 
+## And sets the value with the setInverse function.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
